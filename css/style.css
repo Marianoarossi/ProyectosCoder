@@ -393,9 +393,27 @@ td {
     margin-left: 20%;
     margin-right: 20%;
 
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
 
 
 }
+@keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 300%
+      
+    }
+  
+    to {
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 100%;
+    }
+  }
+
 
 .contactoRedes__parrafo {
     font-size: 2em;
